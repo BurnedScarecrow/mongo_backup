@@ -1,0 +1,18 @@
+{
+  "name": "backup_mongo",
+  "version": "1.0.0",
+  "description": "backup and restore mongo collections",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cawa",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "inquirer": "^9.2.6",
+    "moment": "^2.29.4",
+    "mongodb": "^5.5.0"
+  }
+}
